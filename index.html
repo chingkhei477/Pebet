@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Happy Birthday, Pebet 🎂</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- decorative background -->
+<div class="mesh-bg">
+  <span class="blob blob-1"></span>
+  <span class="blob blob-2"></span>
+  <span class="blob blob-3"></span>
+</div>
+<div id="sparkle-layer"></div>
+<div id="confetti-layer"></div>
+<div id="hearts-layer"></div>
+
+<!-- floating music control -->
+<button id="music-toggle" aria-label="Play birthday tune">
+  <span id="music-icon">♪</span>
+</button>
+
+<audio id="bg-music" src="audio/music.mp3" loop preload="auto"></audio>
+
+<main class="page">
+
+  <div class="hero-and-unlock">
+    <!-- HERO -->
+    <section class="hero">
+      <span class="eyebrow-badge">✨ Someone special turns a year older ✨</span>
+
+      <div class="hero-photo-wrap">
+        <div class="hero-glow"></div>
+        <div class="hero-ring"></div>
+        <div class="hero-photo">
+          <img src="images/pebet.jpg" alt="Pebet" />
+        </div>
+        <span class="hero-crown">👑</span>
+        <span class="hero-sparkle s1">✦</span>
+        <span class="hero-sparkle s2">✧</span>
+      </div>
+
+      <h1 class="hero-title">Happy Birthday,<br><span class="name">Pebet</span> <span class="cake">🎂</span></h1>
+      <p class="hero-subtitle">Warning: extremely cute human turning a year older. Proceed with snacks and confetti.</p>
+
+      <div class="hero-divider"><span></span>🎈<span></span></div>
+    </section>
+
+    <!-- UNLOCK PANEL -->
+    <section class="unlock-section" id="unlock-section">
+      <div class="unlock-card">
+        <div class="unlock-icon">🎁</div>
+        <h2>Enter her date of birth</h2>
+        <p>...to unlock her gallery &amp; reveal exactly how old she's turning 👀</p>
+
+        <input type="date" id="dob-input" />
+        <button id="unlock-btn">Unlock the Fun <span class="btn-arrow">✨</span></button>
+        <p id="verify-message"></p>
+      </div>
+    </section>
+  </div>
+
+  <!-- REVEAL: AGE -->
+  <section class="age-section" id="age-section">
+    <div class="age-card">
+      <p class="age-eyebrow">🥁 Drumroll please...</p>
+      <p class="age-line">
+        Pebet is officially turning
+        <span id="age-number" class="age-number">0</span>
+        <span class="age-word">years of pure chaos &amp; cuteness</span>
+      </p>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery-section" id="gallery-section">
+    <h2 class="gallery-title">Certified Cutie Moments <span>📸</span></h2>
+    <p class="gallery-subtitle">A little scroll through her main-character era</p>
+    <div class="gallery-grid" id="gallery-grid"></div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer" id="footer-section">
+    <div class="footer-card">
+      <p>Never change, Pebet (except maybe stop stealing snacks). <span class="heart">❤</span></p>
+      <button id="replay-btn">Celebrate Again 🎉</button>
+    </div>
+  </footer>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
