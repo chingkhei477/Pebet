@@ -2,12 +2,12 @@
 const CORRECT_DOB = "2001-08-11"; // 11 August 2001
 
 const GALLERY_PHOTOS = [
-  { src: "images/photo1.jpg", caption: "Effortlessly extra 😄" },
-  { src: "images/photo2.jpg", caption: "Certified heartbreaker energy" },
-  { src: "images/photo3.jpg", caption: "Plotting something, probably" },
-  { src: "images/photo4.jpg", caption: "Iconic. No notes." },
-  { src: "images/photo5.jpg", caption: "Main character moment" },
-  { src: "images/photo6.jpg", caption: "10/10, no notes" },
+  { src: "images/photo1.jpg", caption: "Bindi" },
+  { src: "images/photo2.jpg", caption: "Ywshang" },
+  { src: "images/photo3.jpg", caption: "Keidwraba Se" },
+  { src: "images/photo4.jpg", caption: "Uiriro" },
+  { src: "images/photo5.jpg", caption: "Aphoubi Sariba" },
+  { src: "images/photo6.jpg", caption: "Miss Pebet" },
 ];
 
 /* ============ DOM REFS ============ */
